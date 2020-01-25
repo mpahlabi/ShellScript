@@ -1,0 +1,4 @@
+sudo yum install java-1.8.0-openjdk-devel -y && git -y
+sudo mkdir -p /var/lib/jenkins
+sudo chown ec2-user:ec2-user /var/lib/jenkins/
+

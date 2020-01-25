@@ -1,0 +1,135 @@
+pahlabi@pahlabi-PC MINGW64 ~
+$ history
+    1  /c/Users/pahlabi/Desktop/Vagrantfile
+    2  cd /c/Users/pahlabi/Desktop/Vagrantfile
+    3  cd /Users/pahlabi/Desktop/Vagrantfile
+    4  pwd
+    5  cd Users/pahlabi/Desktop/Vagrantfile
+    6  pwd
+    7  pwd
+    8  ls
+    9  dir
+   10  pwd
+   11  cd c:
+   12  dir
+   13  cd Users/
+   14  dir
+   15  cd pahlabi/
+   16  dir
+   17  cd Desktop/
+   18  dir
+   19  vagrant.exe up
+   20  vagrant.exe up
+   21  vagrant.exe up --provider=virtualbox
+   22  vagrant.exe up --provider=virtualbox
+   23  ssh 192.168.33.10
+   24  ls
+   25  ls -al
+   26  cd .vagrant
+   27  ls
+   28  cd machines/
+   29  ls
+   30  cd docker/
+   31  ls
+   32  cd virtualbox/
+   33  ls
+   34  cd private_key
+   35  ls -al
+   36  ls -l
+   37  cd private_key
+   38  ssh -i private_key 192.168.33.10
+   39  ssh -i private_key vagrant@192.168.33.10
+   40  /c/Users/pahlabi/Desktop/Vagrantfile up
+   41  cd /c/Users/pahlabi/Desktop/
+   42  dir
+   43  vagrantfile up
+   44  vagrant Vagrantfile up
+   45  vagrant Vagrantfile status
+   46  vagrant status
+   47  vagrant up
+   48  vagrant box list
+   49  ssh 192.168.33.10
+   50  ssh vagrant@192.168.33.10
+   51  ssh -i .vagrant/machines/docker/virtualbox/private_key vagrant@192.168.33.10
+   52  ssh -i .vagrant/machines/docker/virtualbox/private_key vagrant@192.168.33.10
+   53  ssh -i .vagrant/machines/docker/virtualbox/private_key vagrant@192.168.33.10
+   54  vagrant destroy
+   55  vagrant status
+   56  exit
+   57  pwd
+   58  dir
+   59  ssh -i "jenkins.pem" ec2-user@3.85.171.155
+   60  ssh -i "jenkins.pem" ec2-user@3.85.171.155
+   61  pwd
+   62  dir
+   63  pwd
+   64  cd Desktop/
+   65  ssh -i "jenkins.pem" ec2-user@3.85.171.155
+   66  ssh -i "jenkins.pem" ec2-user@3.85.171.155
+   67  ping 3.85.171.155
+   68  ssh -i "jenkins.pem" ec2-user@3.85.171.155
+   69  ping 3.85.171.155
+   70  ssh -i "jenkins.pem" ec2-user@3.85.171.155
+   71  ssh -i "jenkins.pem" ec2-user@3.85.171.155
+   72  ssh -i "jenkins.pem" ec2-user@ec2-54-197-16-50.compute-1.amazonaws.com
+   73  ssh -i "jenkins.pem" ec2-user@54.197.16.50
+   74  ssh -i "jenkins.pem" ec2-user@184.72.182.254
+   75  history
+    
+Command Runs on Jenkin Master server
+=====================================
+    1  clear
+    2  sudo -i
+    3  exit
+    4  /var/lib/jenkins/secrets/initialAdminPassword
+    5  sudo -i
+    6  cd /var/lib/jenkins/
+    7  ls
+    8  cd workspace/
+    9  ls
+   10  cd JavaSelenium/
+   11  ls
+   12  cd test-output/
+   13  ls
+   14  exit
+   15  chkconfig jenkins on
+   16  sudo -i
+   17  exit
+   18  history
+
+Command Runs on Jenkins Slave Server 01
+=====================================
+
+
+ 1  sudo yum install java-1.8.0-openjdk-devel
+    2  clear
+    3  mkdir /var/lib/jenkis
+    4  mkdir -p /var/lib/jenkis
+    5  sudo mkdir -p /var/lib/jenkis
+    6  rm -rf /var/lib/jenkis
+    7  sudo rm -rf /var/lib/jenkis
+    8  mkdir -p /var/lib/jenkins
+    9  sudo mkdir -p /var/lib/jenkins
+   10  ls -al /var/lib/jenkins/
+   11  sudo chown ec2-user:ec2-user /var/lib/jenkins/
+   12  ls -al /var/lib/jenkins/
+   13  history
+   14  exit
+   15  sudo yum install git
+   16  netstat -tulpn
+   17  netstat -tulpn |grep LISTEN
+   18  exit
+   
+
+Command Runs on Jenkins Slave Server 02
+=======================================
+
+    1  sudo yum install java-1.8.0-openjdk-devel -y && git -y
+    2  sudo mkdir -p /var/lib/jenkins
+    3  sudo chown ec2-user:ec2-user /var/lib/jenkins/
+    4  sudo yum install git
+    5  clear
+    6  history
+
+
+
